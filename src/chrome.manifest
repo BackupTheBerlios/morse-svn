@@ -1,0 +1,8 @@
+content morse content/
+
+overlay chrome://browser/content/browser.xul chrome://morse/content/overlay.xul
+
+skin morse classic/1.0 skin/
+
+style chrome://global/content/customizeToolbar.xul chrome://morse/skin/overlay.css
+

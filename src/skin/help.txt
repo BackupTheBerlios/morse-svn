@@ -1,0 +1,135 @@
+
+Morse Help
+----------
+Version 0.5 (morse-0.5-fx+fl.xpi)
+
+1.  License
+2.  Morse code
+2.1 Introduction
+2.2 Morse code alphabet
+3.  Morse Extension
+3.1 Basic functionality
+3.2 Toolbar items
+4.  Known bugs
+5.  Contact
+
+1. License 
+----------
+Morse - learn morse code
+Copyright (C) 2006 Jan Kechel
+
+This program is free software; you can redistribute it and/or modify 
+it under the terms of the GNU General Public License as published by 
+the Free Software Foundation; either version 2 of the License, or 
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful, 
+but WITHOUT ANY WARRANTY; without even the implied warranty of 
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software Foundation,
+Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+
+2. Morse code
+-------------
+
+2.1 Introduction
+----------------
+
+Morse code is a method for transmitting information, using standardized
+sequences of short and long marks or pulses - commonly known as "dots"
+and "dashes" - for the letters, numerals and special characters of a
+message. Originally created for Samuel Morse's electric telegraph in
+the mid-1830s, it was also extensively used for early radio communication
+beginning in the 1890s. However, with the development of more advanced
+communications technologies, the use of Morse code is now largely 
+obsolete, although it is still employed for a few specialized purposes,
+including navigational radio beacons, and by CW (continuous wave)
+amateur radio operators. Morse code is the only digital modulation mode 
+designed to be easily read by humans without a computer, making it 
+appropriate for sending automated digital data in voice channels. 
+(from http://en.wikipedia.org/wiki/Morse_code 17-APR-2006)
+
+
+2.2 Morse code alphabet
+-----------------------
+
+A 	·- 	
+B 	-··· 	
+C 	-·-· 	
+D 	-·· 	
+E 	· 	
+F 	··-· 	
+G 	--· 	
+H 	···· 	
+I 	·· 	
+J 	·--- 	
+K 	-·- 	
+L 	·-·· 	
+M 	-- 	
+N 	-·
+O 	---
+P 	·--·
+Q 	--·-
+R 	·-·
+S 	···
+T 	-
+U 	··-
+V 	···-
+W 	·--
+X 	-··-
+Y 	-·--
+Z 	--··
+
+
+3. Morse Extension
+------------------
+
+3.1 Basic functionality
+-----------------------
+
+This extension plays random letters using your soundcard, 
+while trying to display the appropriate latin letter as 
+background of you current website.
+
+To start playing, use Menu/Tools/Morse/Start.
+To stop playing, use Menu/Tools/Morse/Stop.
+To view this help, use Menu/Tools/Morse/Help.
+To view the license, use Menu/Tools/Morse/License.
+To change the morse speed, use Menu/Tools/Morse/Settings.
+
+
+3.2 Toolbar items
+-----------------
+
+This extension also has two toolbar-items. 
+To enable/disable those, use Menu/View/Toolbars/Customize.
+The two buttons are:
+
+'- -': This stands for the letter 'M' in morse code. 
+This toolbar-button contains the same menu as in Tools/Morse,
+and though gives you quicker access to Start/Stop learning morse code.
+
+'Morse': This toolbar-item displays the currently played letter
+(e.g. 'M --' while your souncard beeps 'dash dash').
+
+
+4. Known bugs
+-------------
+
+- background-displaying of currently playing letters works not on all sites yet 
+  (e.g. google and freshmeat.net works while mozilla.org does not .. )
+
+- while playing sounds, the browser behaves a little *blocking* 
+
+
+5. Contact
+----------
+
+If you have any questions / suggestions / bugs / feature requests / etc., 
+please let me know: jan@kechel.de (Subject: 'Morse v0.5: ... ')
+
+

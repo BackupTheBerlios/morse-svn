@@ -1,0 +1,31 @@
+#morse-license {
+	width:600px;
+	height:400px;
+}
+
+#morse-title {
+	font-weight:bold;
+	font-size:14px;
+}
+#morse-copy{
+	font-weight:bold;
+}
+
+#morse-settings-dialog {
+	width:400px;
+}
+
+#morse-input {
+	width:300px;
+}
+
+#morse-help {
+	width:300px;
+}
+
+#morse-letter {
+	font-weight:bold;
+	color:#A00000;
+	font-size:16px;
+}
+

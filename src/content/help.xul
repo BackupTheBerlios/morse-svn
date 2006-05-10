@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--
+	Morse - learn morse code
+ 	Copyright (C) 2006 Jan Kechel
+ 
+ 	This program is free software; you can redistribute it and/or
+ 	modify it under the terms of the GNU General Public License
+ 	as published by the Free Software Foundation; either version 2
+ 	of the License, or (at your option) any later version.
+ 
+ 	This program is distributed in the hope that it will be useful,
+ 	but WITHOUT ANY WARRANTY; without even the implied warranty of
+ 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ 	GNU General Public License for more details.
+ 
+ 	You should have received a copy of the GNU General Public License
+ 	along with this program; if not, write to the Free Software
+ 	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+-->
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://morse/skin/overlay.css" type="text/css"?>
+
+<dialog id="morse-help-dialog" 
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	title="Morse Help"
+	ondialogaccept="return true;"
+	buttons="accept">
+
+	<vbox>
+		<label id="morse-title" value="Morse - learn morse code"/>
+		<label id="morse-copy" value="Copyright (c) 2006 Jan Kechel"/>
+		<editor id="morse-license" editortype="text" src="chrome://morse/skin/help.txt"/>
+		<button align="end" dlgtype="accept" accesskey="O"/>
+	</vbox>
+
+</dialog>

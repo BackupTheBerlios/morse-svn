@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<!--
+	Morse - learn morse code
+ 	Copyright (C) 2006 Jan Kechel
+ 
+ 	This program is free software; you can redistribute it and/or
+ 	modify it under the terms of the GNU General Public License
+ 	as published by the Free Software Foundation; either version 2
+ 	of the License, or (at your option) any later version.
+ 
+ 	This program is distributed in the hope that it will be useful,
+ 	but WITHOUT ANY WARRANTY; without even the implied warranty of
+ 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ 	GNU General Public License for more details.
+ 
+ 	You should have received a copy of the GNU General Public License
+ 	along with this program; if not, write to the Free Software
+ 	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+-->
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://morse/skin/overlay.css" type="text/css"?>
+
+<dialog id="morse-settings-dialog" 
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	title="Morse Settings"
+	ondialogaccept="return MorseSettings.onSettingsOK();"
+	ondialogcancel="return MorseSettings.onSettingsCancel();"
+	onload="return MorseSettings.onSettingsLoad();">
+
+	<script src="settings.js"/>
+
+	<vbox>
+		<groupbox>
+			<caption label="Pause between letters"/>
+			<hbox>
+				<vbox id="morse-input">
+					<textbox id="morse-letterpause" cols="4" rows="1"/>
+				</vbox>
+				<vbox id="morse-help">
+					<label value="Each x milliseconds a new"/>
+					<label value="letter will be played"/>
+				</vbox>
+			</hbox>
+		</groupbox>
+
+		<groupbox>
+			<caption label="Pause between dot/dash"/>
+			<hbox>
+				<vbox id="morse-input">
+					<textbox id="morse-dotdashpause" cols="4" rows="1"/>
+				</vbox>
+				<vbox id="morse-help">
+					<label value="in milliseconds"/>
+				</vbox>
+			</hbox>
+		</groupbox>
+
+		<hbox>
+			<button align="end" dlgtype="accept" accesskey="O"/>
+			<button align="end" dlgtype="cancel" accesskey="C"/>
+		</hbox>
+	</vbox>
+
+</dialog>
