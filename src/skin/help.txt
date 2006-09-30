@@ -120,8 +120,9 @@ and though gives you quicker access to Start/Stop learning morse code.
 4. Known bugs
 -------------
 
-- background-displaying of currently playing letters works not on all sites yet 
-  (e.g. google and freshmeat.net works while mozilla.org does not .. )
+- background-displaying of currently playing letters works not on all 
+  sites yet (e.g. google and freshmeat.net works while mozilla.org 
+  does not .. )
 
 - while playing sounds, the browser behaves a little *blocking* 
 
@@ -129,7 +130,7 @@ and though gives you quicker access to Start/Stop learning morse code.
 5. Contact
 ----------
 
-If you have any questions / suggestions / bugs / feature requests / etc., 
+If you have any questions / suggestions / bugs or feature requests, 
 please let me know: jan@kechel.de (Subject: 'Morse v0.5: ... ')
 
 

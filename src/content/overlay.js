@@ -88,32 +88,32 @@ var Morse =
 		Morse.code[24] = "-.--"; // Y
 		Morse.code[25] = "--.."; // Z
 
-		Morse.letter[0] = "A"; // A
-		Morse.letter[1] = "B"; // B
-		Morse.letter[2] = "C"; // C
-		Morse.letter[3] = "D"; // D
-		Morse.letter[4] = "E"; // E
-		Morse.letter[5] = "F"; // F
-		Morse.letter[6] = "G"; // G
-		Morse.letter[7] = "H"; // H
-		Morse.letter[8] = "I"; // I
-		Morse.letter[9] = "J"; // J
-		Morse.letter[10] = "K"; // K
-		Morse.letter[11] = "L"; // L
-		Morse.letter[12] = "M"; // M
-		Morse.letter[13] = "N"; // N
-		Morse.letter[14] = "O"; // O
-		Morse.letter[15] = "P"; // P
-		Morse.letter[16] = "Q"; // Q
-		Morse.letter[17] = "R"; // R
-		Morse.letter[18] = "S"; // S
-		Morse.letter[19] = "T"; // T
-		Morse.letter[20] = "U"; // U
-		Morse.letter[21] = "V"; // V
-		Morse.letter[22] = "W"; // W
-		Morse.letter[23] = "X"; // X
-		Morse.letter[24] = "Y"; // Y
-		Morse.letter[25] = "Z"; // Z
+		Morse.letter[0] = "A"; 
+		Morse.letter[1] = "B";
+		Morse.letter[2] = "C";
+		Morse.letter[3] = "D";
+		Morse.letter[4] = "E";
+		Morse.letter[5] = "F";
+		Morse.letter[6] = "G";
+		Morse.letter[7] = "H";
+		Morse.letter[8] = "I";
+		Morse.letter[9] = "J";
+		Morse.letter[10] = "K";
+		Morse.letter[11] = "L";
+		Morse.letter[12] = "M";
+		Morse.letter[13] = "N";
+		Morse.letter[14] = "O"; 
+		Morse.letter[15] = "P"; 
+		Morse.letter[16] = "Q"; 
+		Morse.letter[17] = "R";
+		Morse.letter[18] = "S";
+		Morse.letter[19] = "T";
+		Morse.letter[20] = "U";
+		Morse.letter[21] = "V";
+		Morse.letter[22] = "W";
+		Morse.letter[23] = "X";
+		Morse.letter[24] = "Y";
+		Morse.letter[25] = "Z";
 
 		if( !Morse.running)
 		{
@@ -203,7 +203,6 @@ var Morse =
 	
 			// show in toolbar
 			Morse.displayletter.setAttribute("value", Morse.letter[Morse.morsenowindex] + " " + Morse.code[Morse.morsenowindex]);
-
 
 			// start beeping
 			Morse.morseletter(Morse.code[Morse.morsenowindex]);

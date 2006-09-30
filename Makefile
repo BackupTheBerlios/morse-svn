@@ -14,5 +14,5 @@ all:
 	cp src/defaults/preferences/*.js build/defaults/preferences
 	mkdir build/chrome
 	cd src; jar -cvf ../build/chrome/morse.jar content/*.js content/*.xul skin/*.png  skin/*.css skin/*.txt skin/*.wav
-	cd build; zip -r ../morse-0.5-fx+fl.xpi *
+	cd build; zip -r ../morse-0.6-fx+fl.xpi *
 
